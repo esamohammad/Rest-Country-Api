@@ -7,10 +7,11 @@
 
         background: linear-gradient(-25deg, #02074e, #290242);
         background-size: 3000% 3000%;
-       
+
         height: 100vh;
         padding: 15px;
     }
+
     .countries {
         display: grid;
         grid-template-columns: 1fr;
@@ -46,12 +47,13 @@
 @media only screen and (min-width: 480px) and (max-width: 768px) {
     body {
 
-        background: linear-gradient(-25deg, #02074e, #290242);
+        background: linear-gradient(-60deg, #020241, #0b0311);
         background-size: 3000% 3000%;
-       
+
         height: 100vh;
         padding: 15px;
     }
+
     .countries {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -70,6 +72,7 @@
     h1 {
         font-size: 40px;
     }
+
     h2 {
         font-size: 30px;
     }
@@ -105,6 +108,7 @@
     h1 {
         font-size: 50px;
     }
+
     h2 {
         font-size: 30px;
     }
