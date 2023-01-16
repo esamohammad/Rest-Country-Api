@@ -44,7 +44,14 @@
 */
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+    body {
 
+        background: linear-gradient(-25deg, #02074e, #290242);
+        background-size: 3000% 3000%;
+       
+        height: 100vh;
+        padding: 15px;
+    }
     .countries {
         display: grid;
         grid-template-columns: 1fr 1fr;
