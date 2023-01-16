@@ -1,0 +1,59 @@
+body {
+
+    background: linear-gradient(-45deg, hwb(212 2% 22%), #02074e, #290242, #d80404);
+    background-size: 3000% 3000%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    padding: 15px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.countries {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+
+}
+
+.country {
+    border: 3px solid rgb(245, 241, 241);
+    background-color: rgba(248, 247, 246, 0);
+    border-radius: 5px;
+    padding: 20px 20px;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(248, 241, 241);
+    font-size: 40px;
+}
+
+h2 {
+
+    color: rgb(248, 241, 241);
+    font-size: 20px;
+}
+
+p {
+    color: rgb(248, 241, 241);
+    font-size: 16px;
+}
+
+.country img {
+    width: 200px;
+}

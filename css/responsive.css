@@ -1,0 +1,101 @@
+/* 
+   Mobile Layout: 320px.
+*/
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+    .countries {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px 10px;
+
+    }
+
+    .country {
+        border: 5px solid #f5f2f2;
+        background-color: #00bbd400;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* 
+   Tablet Layout: 580px.
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    .countries {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 20px;
+
+    }
+
+    .country {
+        border: 5px solid #f5f2f2;
+        background-color: #00bbd400;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+
+}
+
+/* 
+   Laptop Layout: 580px.
+*/
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+
+    .countries {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px 20px;
+
+    }
+
+    .country {
+        border: 5px solid #f5f2f2;
+        background-color: #00bbd400;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+}
